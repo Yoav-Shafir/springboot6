@@ -1,0 +1,5 @@
+# Add new User
+curl -i -H "Content-Type: application/json" -X POST -d '{
+      	"name":"John",
+		"birthDay":"2000-01-01T11:34:48.044+0000"
+    }' localhost:8080/users
